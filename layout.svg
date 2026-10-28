@@ -81,5 +81,5 @@
 <rect class="a" x="20" y="268" width="14" height="14" rx="3"/><text class="s" x="40" y="279" style="text-anchor:start">arrows / Home / End / PgUp</text>
 <rect class="w" x="230" y="268" width="14" height="14" rx="3"/><text class="s" x="250" y="279" style="text-anchor:start">jump by word</text>
 <rect class="c" x="350" y="268" width="14" height="14" rx="3"/><text class="s" x="370" y="279" style="text-anchor:start">Ctrl+key shortcut</text>
-<text class="s" x="20" y="303" style="text-anchor:start">Also: Shift selects, Alt acts as Ctrl, Ctrl acts as Alt. CapsLock+Space/Tab/Enter/Backspace/Delete` and / too.</text>
+<text class="s" x="20" y="303" style="text-anchor:start">Also: Shift selects, Alt acts as Ctrl, Ctrl acts as Alt. CapsLock+Space/Tab/Enter/Backspace/Delete, ` and / too.</text>
 </svg>
