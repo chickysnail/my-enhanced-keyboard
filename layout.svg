@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="system-ui,sans-serif">
+<style>.k{fill:#f2f2f2;stroke:#bbb}.a{fill:#cfe8ff;stroke:#4a90d9}.w{fill:#ffe9b8;stroke:#d9a441}.c{fill:#e6e6e6;stroke:#bbb}text{text-anchor:middle;fill:#222}.s{font-size:11px;fill:#555}.l{font-size:18px;font-weight:600}</style>
+<rect width="720" height="320" fill="#fff"/>
+<text x="360" y="30" font-size="18" font-weight="600">Hold CapsLock + key</text>
+<rect class="k" x="20" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="52.0" y="84">Q</text>
+<rect class="c" x="90" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="122.0" y="84">W</text>
+<text class="s" x="122.0" y="104">Ctrl+W</text>
+<rect class="k" x="160" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="192.0" y="84">E</text>
+<rect class="c" x="230" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="262.0" y="84">R</text>
+<text class="s" x="262.0" y="104">Ctrl+R</text>
+<rect class="c" x="300" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="332.0" y="84">T</text>
+<text class="s" x="332.0" y="104">Ctrl+T</text>
+<rect class="a" x="370" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="402.0" y="84">Y</text>
+<text class="s" x="402.0" y="104">←</text>
+<rect class="a" x="440" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="472.0" y="84">U</text>
+<text class="s" x="472.0" y="104">Home</text>
+<rect class="a" x="510" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="542.0" y="84">I</text>
+<text class="s" x="542.0" y="104">End</text>
+<rect class="a" x="580" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="612.0" y="84">O</text>
+<text class="s" x="612.0" y="104">→</text>
+<rect class="a" x="650" y="56" width="64" height="64" rx="8"/>
+<text class="l" x="682.0" y="84">P</text>
+<text class="s" x="682.0" y="104">PgUp</text>
+<rect class="c" x="34" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="66.0" y="154">A</text>
+<text class="s" x="66.0" y="174">Ctrl+A</text>
+<rect class="c" x="104" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="136.0" y="154">S</text>
+<text class="s" x="136.0" y="174">Ctrl+S</text>
+<rect class="c" x="174" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="206.0" y="154">D</text>
+<text class="s" x="206.0" y="174">Ctrl+D</text>
+<rect class="c" x="244" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="276.0" y="154">F</text>
+<text class="s" x="276.0" y="174">Ctrl+F</text>
+<rect class="k" x="314" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="346.0" y="154">G</text>
+<rect class="w" x="384" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="416.0" y="154">H</text>
+<text class="s" x="416.0" y="174">word ←</text>
+<rect class="a" x="454" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="486.0" y="154">J</text>
+<text class="s" x="486.0" y="174">↓</text>
+<rect class="a" x="524" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="556.0" y="154">K</text>
+<text class="s" x="556.0" y="174">↑</text>
+<rect class="w" x="594" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="626.0" y="154">L</text>
+<text class="s" x="626.0" y="174">word →</text>
+<rect class="k" x="664" y="126" width="64" height="64" rx="8"/>
+<text class="l" x="696.0" y="154">;</text>
+<rect class="c" x="52" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="84.0" y="224">Z</text>
+<text class="s" x="84.0" y="244">Ctrl+Z</text>
+<rect class="c" x="122" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="154.0" y="224">X</text>
+<text class="s" x="154.0" y="244">Ctrl+X</text>
+<rect class="c" x="192" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="224.0" y="224">C</text>
+<text class="s" x="224.0" y="244">Ctrl+C</text>
+<rect class="c" x="262" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="294.0" y="224">V</text>
+<text class="s" x="294.0" y="244">Ctrl+V</text>
+<rect class="c" x="332" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="364.0" y="224">B</text>
+<text class="s" x="364.0" y="244">Ctrl+B</text>
+<rect class="c" x="402" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="434.0" y="224">N</text>
+<text class="s" x="434.0" y="244">Ctrl+N</text>
+<rect class="k" x="472" y="196" width="64" height="64" rx="8"/>
+<text class="l" x="504.0" y="224">M</text>
+<rect class="a" x="20" y="268" width="14" height="14" rx="3"/><text class="s" x="40" y="279" style="text-anchor:start">arrows / Home / End / PgUp</text>
+<rect class="w" x="230" y="268" width="14" height="14" rx="3"/><text class="s" x="250" y="279" style="text-anchor:start">jump by word</text>
+<rect class="c" x="350" y="268" width="14" height="14" rx="3"/><text class="s" x="370" y="279" style="text-anchor:start">Ctrl+key shortcut</text>
+<text class="s" x="20" y="303" style="text-anchor:start">Also: Shift selects, Alt acts as Ctrl, Ctrl acts as Alt. CapsLock+Space/Tab/Enter/Backspace/Delete` and / too.</text>
+</svg>

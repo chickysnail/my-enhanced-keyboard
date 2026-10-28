@@ -1,23 +1,46 @@
-# Моя улучшенная клавиатура
-## В стандартной клавиатуре много нелогичностей. Это моя попытка исправить хоть часть из них (стрелочки и `backspace`)
-Вдохновился этой статьей: https://optozorax.github.io/p/my-keyboard-layout/. Там нашел [ссылку на репозитроий](https://github.com/klavarog/enhanced-keyboard) с прогой `EnhancedKeyboard.exe`, настроил предложенный лейаут arrows2, который переносит стрелочки на клавиши `jkl;`, то есть ставит их в самое удобное место -  под пальцы в дефолтной позиции. Такой режим включается при нажатии CapsLock. 
-![картиночка с раскладкой](arrows2.png)
+# My Enhanced Keyboard
 
-Также решил проблему того, как далеко расположен `backspace`, - перенес его на `alt gr` (т.е. правый `alt`). 
-При этом оригинальные стрелочки и `backspace` никуда не деваются - гость на вашем компьютере не запутается. 
+A small AutoHotkey script that fixes the most annoying parts of a standard keyboard: arrows are too far away, `Backspace` is too far away, and `CapsLock` is useless.
+Hold `CapsLock` and your home row becomes a navigation layer. Regular keys keep working as usual, so a guest at your computer won't get confused.
 
-### Troubleshooting 1
-Может возникнуть проблема, что традиционная функциональность `Capslock`'а никуда не пропала. Я для решения в `regedit` переназначил его код с 20 на 255 (в `Settings.aigb` как раз такая версия)
-Как это сделать нашел [здесь](https://isenselabs.com/posts/keyboard-key-kills-and-remaps-for-windows-users)
+Inspired by [this article](https://optozorax.github.io/p/my-keyboard-layout/) and the [klavarog/enhanced-keyboard](https://github.com/klavarog/enhanced-keyboard) project.
 
-### Troubleshooting 2
-Почему-то при нажатии улучшенного `alt gr`, он нажимался в половине случаев с `ctrl`, то есть удалял все слово. Но это не важно, так как в `Settinngs.aigb` уже работающая версия
+**Version: 2.0.0** (v1 was a prebuilt `EnhancedKeyboard.exe` + registry hack, this version is a single script)
 
-### Must-have
-Чтобы программа включалась при старте винды, делаем следующее: жмем `Win+R`, пишем `shell:startup`, вставляем в открывшуюся папку ярлык приложения `EnhancedKeyboard.exe`
+![layout](layout.svg)
 
-#### Возможно пригодится
-[Табличка от Microsoft с hex-кодами всех клавиш](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/aa299374(v=vs.60)?redirectedfrom=MSDN). Это может быть нужно, если в регистре что-то менять
+## Install
 
-#### P.s. 
-Пишу в основном для будущего себя, чтобы когда измениться компьютер я мог вернуть удобные настройки клавиатуры, просто прочитав это, а не проделывая рисерч заново. Но может кому-то и поможет ;)
+1. Install [AutoHotkey **v1.1**](https://www.autohotkey.com/) (the script is not compatible with v2).
+2. Download `hjkl.ahk` and double-click it.
+3. To start it with Windows: press `Win+R`, type `shell:startup`, and put a shortcut to `hjkl.ahk` into that folder.
+
+No registry changes are needed, the script turns off `CapsLock` itself.
+
+## What it does
+
+Everything below is while holding `CapsLock`.
+
+| Key | Result |
+| --- | --- |
+| `k` / `j` | Up / Down |
+| `h` / `l` | Jump one word left / right (`Ctrl+←` / `Ctrl+→`) |
+| `y` / `o` | Left / Right |
+| `u` / `i` | Home / End |
+| `p` | Page Up |
+| `w r c v x z a s f d b t n` | `Ctrl` + the same key |
+| `Space` `Tab` `Enter` `Backspace` `Delete` `/` `` ` `` | `Ctrl` + the same key |
+
+Modifiers work on top of the arrow keys (e.g. `Shift` selects text). Note that **`Alt` and `Ctrl` are swapped**: `CapsLock+Alt+k` sends `Ctrl+↑`, `CapsLock+Ctrl+k` sends `Alt+↑`.
+
+### Backspace with a number
+Hold a digit `1`-`9` (or `0` for 10) and press `Backspace` to delete that many characters at once. The digit itself is deleted too, so exactly N characters are removed.
+
+### Left Alt
+- Tap `Alt` alone: sends `Win+Space` (switch input language).
+- `Alt` no longer focuses the app menu bar when tapped.
+
+## Notes
+
+- There is no `PageDown` on the layer yet, only `PageUp` (`p`).
+- I mostly write this for my future self, so I can restore my keyboard setup on a new computer without redoing the research. Maybe it helps someone else too ;)
